@@ -10,20 +10,12 @@ Haber montado 2 máquinas virtuales con un minimo de:
 * Distro Debian
 * Conectados al mismo segmento de red o bien con ruteo activo (deben poder observarse una a otra)
 
-# Controlplane Node
+# Levantar clúster
 
 Uso de script:
 
 ```bash
 sh k8s.sh
-```
-
-# Worker Node
-
-Uso de script:
-
-```bash
-sh k8s.sh $hash_coneccion_controlplane
 ```
 
 Luego de ejecutarse el script se puede probar el clúster con el siguiente comando (ya sea en el controlplane node o con tu binario kubetcl)
